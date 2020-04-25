@@ -1,0 +1,14 @@
+[27-Dec-2019 15:27:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/sistemaiec/public_html/petshop/fpdf17/fpdf.php on line 23
+[27-Dec-2019 15:30:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/sistemaiec/public_html/petshop/fpdf17/fpdf.php on line 23
+[27-Dec-2019 15:46:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/sistemaiec/public_html/petshop/fpdf17/fpdf.php on line 23
+[27-Dec-2019 15:51:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/sistemaiec/public_html/petshop/fpdf17/fpdf.php on line 23
+[27-Dec-2019 15:52:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/sistemaiec/public_html/petshop/fpdf17/fpdf.php on line 23
+[11-Feb-2020 23:54:13 UTC] PHP Warning:  Division by zero in /home/sistemaiec/public_html/petshop/Reportes/Ingreso.php on line 259
+[11-Feb-2020 23:54:13 UTC] PHP Warning:  Division by zero in /home/sistemaiec/public_html/petshop/Reportes/Ingreso.php on line 259
+[11-Feb-2020 23:54:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/sistemaiec/public_html/petshop/fpdf182/fpdf.php:271
+Stack trace:
+#0 /home/sistemaiec/public_html/petshop/fpdf182/fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 /home/sistemaiec/public_html/petshop/fpdf182/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/sistemaiec/public_html/petshop/Reportes/exIngreso.php(260): FPDF->Output('Reporte de Ingr...', 'I')
+#3 {main}
+  thrown in /home/sistemaiec/public_html/petshop/fpdf182/fpdf.php on line 271
